@@ -51,10 +51,10 @@ export function Footer() {
                 event.currentTarget.style.textDecoration = 'none';
               }}
               component="a"
-              href="https://dev.ryzendesu.vip"
+              href="https://developer.studioserver.org"
               color="#e534af"
             >
-              ShirokamiRyzen
+              Studio Server Developers
             </Text>
           </Text>
           <Text
@@ -66,10 +66,10 @@ export function Footer() {
               event.currentTarget.style.textDecoration = 'none';
             }}
             component="a"
-            href="https://github.com/ShirokamiRyzen/tikdown"
+            href="https://developer.studioserver.org"
             color="#e534af"
           >
-            Source code
+            CODE
           </Text>
         </Box>
       </Container>

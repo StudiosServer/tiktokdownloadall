@@ -51,13 +51,13 @@ const PageNotFound: NextPage = () => {
   return (
     <Container className={classes.root}>
       <div className={classes.label}>404</div>
-      <Title className={classes.title}>Not found</Title>
+      <Title className={classes.title}>No elcontrado</Title>
       <Text color="dimmed" size="lg" align="center" className={classes.description}>
-        Unfortunately, the page you requested was not found on this site. You may have mistyped the address, or the page may have been moved to another URL.
+        Lo sentimos esta ruta no esta disponible
       </Text>
       <Group position="center">
         <Button component="a" href="/" variant="subtle" color="" size="md">
-          Take me back to the home page
+          Volver al inicio
         </Button>
       </Group>
     </Container>

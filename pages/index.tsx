@@ -178,7 +178,7 @@ const Home: NextPage = () => {
                   size="md"
                   className={classes.downloadButton}
                 >
-                  Download video
+                  Descargar video
                 </Button>
                 <Button
                   component="a"
@@ -201,7 +201,7 @@ const Home: NextPage = () => {
                   size="md"
                   className={classes.downloadButton}
                 >
-                  Download video (watermark)
+                  Descargar video (MArca de agua)
                 </Button>
                 <Button
                   component="a"
@@ -249,7 +249,7 @@ const Home: NextPage = () => {
                 variant="outline"
                 size="md"
               >
-                Download another
+                Descargar otro
               </Button>
             </div>
           </Container>
@@ -259,6 +259,7 @@ const Home: NextPage = () => {
       ) : (
         <>
           <Container size={700} className={classes.inner}>
+            <link rel="shortcut icon" href="https://i.postimg.cc/8kwXBZnQ/studio-server-icon.png" type="image/x-icon" />
             <Text className={classes.header}>{data.author}'s images</Text>
             <div className={classes.downloadControls}>
               <div className={classes.buttonRow}>
@@ -311,7 +312,7 @@ const Home: NextPage = () => {
                   size="md"
                   className={classes.downloadButton}
                 >
-                  Download sound
+                  Descargar audio
                 </Button>
               </div>
               <Button
@@ -336,7 +337,7 @@ const Home: NextPage = () => {
                 variant="outline"
                 size="md"
               >
-                Download another
+                Descargar otro
               </Button>
             </div>
           </Container>
@@ -354,7 +355,7 @@ const Home: NextPage = () => {
           </Text>
         </h1>
         <div className={classes.controls}>
-          <TextInput error={error} onChange={handleChange} onKeyDown={handleKeyDown} style={{ marginRight: 8, flex: 1 }} placeholder="Tiktok URL or video ID" size="md" icon={<Link1Icon />} />
+          <TextInput error={error} onChange={handleChange} onKeyDown={handleKeyDown} style={{ marginRight: 8, flex: 1 }} placeholder="Tiktok URL o video ID" size="md" icon={<Link1Icon />} />
           <Button
             loading={loading}
             loaderPosition="right"
@@ -375,7 +376,7 @@ const Home: NextPage = () => {
             size="md"
             onClick={handleClick}
           >
-            Download
+            Descargar
           </Button>
         </div>
       </Container>
